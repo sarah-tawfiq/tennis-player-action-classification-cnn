@@ -189,21 +189,11 @@ A sample prediction was performed using an image from the **Serve** class.
 
 ---
 
-## Saved Model
+## Model
 
-The trained model was saved in Keras format:
+The trained model is hosted on Hugging Face:
 
-```text
-saved_model/tennis_model.keras
-```
-
-The model can be loaded using:
-
-```python
-model = tf.keras.models.load_model(
-    "saved_model/tennis_model.keras"
-)
-```
+[Download Tennis Stroke Classification Model](https://huggingface.co/SarahTawfiq/tennis_model.keras)
 
 ---
 
